@@ -1,3 +1,26 @@
+.list {
+    display: flex;
+    align-items: flex-start;
+    height: 100%;
+    flex-wrap: nowrap;
+    max-width: 75%;
+
+}
+
+.child {
+    background: #bbe3f5;
+    margin: 1rem;
+    padding: 1em 2em;
+    border: 1px dotted cornflowerblue;
+    border-radius: 2%;
+}
+
+.card-body.active {
+    background: rgba(255, 255, 0, 0.4);
+}
+
+
+/*
 .App {
   text-align: center;
 }
@@ -36,3 +59,4 @@
     transform: rotate(360deg);
   }
 }
+*/
